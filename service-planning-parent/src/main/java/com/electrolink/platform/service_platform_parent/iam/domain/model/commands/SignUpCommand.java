@@ -1,0 +1,8 @@
+package com.electrolink.platform.service_platform_parent.iam.domain.model.commands;
+
+import com.electrolink.platform.service_platform_parent.iam.domain.model.entities.Role;
+
+import java.util.List;
+
+public record SignUpCommand(String username, String password, List<Role> roles) {
+}
